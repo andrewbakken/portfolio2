@@ -66,6 +66,8 @@ h2 {
   width: 100%;
   height:90px;
   background-color:white;
+  border-bottom: 1px solid;
+  border-color:#ddd;
 }
 
 .logo {
@@ -112,7 +114,7 @@ h2 {
 .me-image {
     width: 100%; 
     height: 100%; 
-    border-radius:30px; 
+    border-radius:10px; 
     overflow: hidden; 
 }
 .about-me {
@@ -137,19 +139,19 @@ h2 {
 }
 .row-photo  {
   color:black;
-  width:29%;
-  padding:25px;
+  width:30%;
+  padding:10px;
   display: inline-block;
 }
 .row-text  {
   color:black; 
   width:60%;
-  padding:25px;
+  padding:25px 25px 50px 25px;
   display: inline-block;
-  margin-top:3px;
-  font-size: 19px;
+  font-size: 19.5px;
   text-align: left;
-  line-height: 29px;
+  line-height: 25px;
+
 }
 .row  {
   color:black;
@@ -182,11 +184,11 @@ h2 {
 
 
 hr {
-    color:grey;
+    color:light-grey;
     width:90%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
  
   .about-me {
       margin:190px 0 0px 0;
@@ -218,9 +220,9 @@ hr {
 
   .nav li {
       display:inline-block;
-      margin-right:20px;
+      margin-right:16px;
       margin-top:18px;
-      font-size:13px;
+      font-size:14px;
 }
 
   .nav {
